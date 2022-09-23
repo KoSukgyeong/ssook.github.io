@@ -1,0 +1,25 @@
+*{
+	margin: 0; padding: 0;
+	box-sizing: border-box;
+}
+#container{
+	width: 1000px;
+	margin: 0 auto;
+	background-color: pink;
+}
+#container>.wrap>div{
+	width: 33.3%;
+	float: left;
+}
+#container>.wrap>div.box1{
+	background-color: green;
+}
+#container>.wrap>div.box2{
+	background-color: orange;
+}
+#container>.wrap>div.box3{
+	background-color: skyblue;
+}
+img{
+	width: 90%;
+}
